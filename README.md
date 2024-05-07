@@ -33,5 +33,15 @@ Deploy dotfiles for bat `stow bat -t ~`.
 
 File will symlink **dotfiles/bat/.config/bat/themes** to **$HOME/.config/bat/themes**
 
+## Git
 
+Configure global git settings before running git.
+
+```bash
+# Set username
+git config --global user.name "FIRST_NAME LAST_NAME"
+
+# Set email
+git config --global user.email "MY_NAME@example.com"
+```
 
