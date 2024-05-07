@@ -25,4 +25,13 @@ cd dotfiles
 
 then use GNS stow to create symlinks.
 
-`stow .`
+`stow <app> -t ~`
+
+**example**
+
+Deploy dotfiles for bat `stow bat -t ~`.
+
+File will symlink **dotfiles/bat/.config/bat/themes** to **$HOME/.config/bat/themes**
+
+
+
