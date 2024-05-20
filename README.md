@@ -33,6 +33,18 @@ Deploy dotfiles for bat `stow bat -t ~`.
 
 File will symlink **dotfiles/bat/.config/bat/themes** to **$HOME/.config/bat/themes**
 
+You will need to run it against each application
+
+- tmux and zsh will require the --adopt argument. 
+
+After sourcing dotfiles the following will also need to be done
+
+- bat - Rebuild cache using `bat cache --build`
+- nvim
+  - Update lazygit
+  - Install Mason components missing
+
+
 ## Git
 
 Configure global git settings before running git.
