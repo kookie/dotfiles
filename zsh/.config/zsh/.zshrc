@@ -19,7 +19,7 @@ bindkey "^[[1;5D" backward-word
 eval "$(fzf --zsh)"
 eval "$(thefuck --alias)"
 eval "$(thefuck --alias fk)"
-eval "$(zoxide init zsh)"
+eval "$(zoxide init --cmd cd zsh)"
 eval "$(tmuxifier init -)"
 eval "$(starship init zsh)"
 
