@@ -1,1 +1,1 @@
-/home/linuxbrew/.linuxbrew/bin/neofetch
+/home/linuxbrew/.linuxbrew/bin/fastfetch
