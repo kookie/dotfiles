@@ -15,6 +15,10 @@ fi
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 
+# Fix ALT + Arrow keybinding
+bindkey "^[[1;3C" forward-word
+bindkey "^[[1;3D" backward-word
+
 # Load Applications
 eval "$(fzf --zsh)"
 eval "$(thefuck --alias)"
